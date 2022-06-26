@@ -18,46 +18,54 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <!--header-->
     <header class="header">
       <div class="container">
-        <a class="header-logo link logo" href="/" lang="en"
-          ><span class="color-logo">Web</span>Studio</a
+        <a class="header-logo header__header-logo link logo" href="/" lang="en"
+          ><span class="header-logo__color">Web</span>Studio</a
         >
-        <nav class="header-nav">
-          <ul class="header-list list">
-            <li class="header-item">
-              <a href="./index.html" class="header-link link">Студия</a>
+        <nav class="nav">
+          <ul class="nav__list list">
+            <li class="nav__item">
+              <a href="./" class="nav__link link">Студия</a>
             </li>
-            <li class="header-item">
-              <a href="" class="header-link link current">Портфолио</a>
+            <li class="nav__item">
+              <a href="./portfolio.html" class="nav__link link current"
+                >Портфолио</a
+              >
             </li>
-            <li class="header-item">
-              <a href="" class="header-link link">Контакты</a>
+            <li class="nav__item">
+              <a href="" class="nav__link link">Контакты</a>
             </li>
           </ul>
         </nav>
-        <ul class="header-contacts list">
-          <li class="header-contacts-item">
+
+        <ul class="connect list">
+          <li class="connect__item">
             <a
               href="mailto:info@devstudio"
-              class="header-contacts-link header-link link"
+              class="connect__link nav__link link"
             >
-              <svg class="header-icons" width="16" height="12">
+              <svg
+                class="connect__icon connect__margin-icon"
+                width="16"
+                height="12"
+              >
                 <use href="./images/icons.svg#icon-tel"></use>
               </svg>
               info@devstudio</a
             >
           </li>
-          <li class="header-contacts-item">
-            <a
-              href="tel:+380961111111"
-              class="header-contacts-link header-link link"
-            >
-              <svg class="header-icons" width="10" height="16">
+          <li class="connect__item">
+            <a href="tel:+380961111111" class="connect__link nav__link link">
+              <svg
+                class="connect__icon connect__margin-icon"
+                width="10"
+                height="16"
+              >
                 <use href="./images/icons.svg#icon-smartphone"></use>
               </svg>
               +380961111111</a
@@ -302,7 +310,7 @@
       <div class="container">
         <div class="footer-contacts">
           <a class="footer-logo link logo" href="/" lang="en"
-            ><span class="color-logo">Web</span>Studio</a
+            ><span class="header-logo__color">Web</span>Studio</a
           >
           <address class="footer-address text">
             <p class="footer-address-text">г. Киев, пр-т Леси Украинки, 26</p>
