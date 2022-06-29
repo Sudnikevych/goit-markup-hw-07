@@ -41,7 +41,7 @@
 }
 
 .projects-title {
-  @include font(700, 18px, 2, 0.06em, var(--main-text-color));
+  @include font(700, 18px, 2, 0.06em, #212121);
   margin-bottom: 4px;
 }
 
